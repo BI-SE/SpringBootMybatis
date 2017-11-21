@@ -16,7 +16,7 @@ public class TestThread extends Thread{
      public void run(){
          System.out.println("this is running");
      }
-    //测试github
+    //测试github2
     public static void main(String[] args) {
         TestThread thread = new TestThread(155);
         thread.start();
